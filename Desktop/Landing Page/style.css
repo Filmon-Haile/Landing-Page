@@ -1,0 +1,107 @@
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+  header{
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+    height: 70px;
+  background-color: rgb(72, 89, 89);
+  color:white; 
+  position: 0sticky;
+  
+}
+
+    .nav-link{
+      color: white;
+      }
+    .nav-link:hover{
+      color: white;
+ font-size: 20px;
+      }
+
+
+    #form,h2{
+      padding:7px;
+      display: flex;
+      justify-content: center;
+    }
+
+  
+
+      .btn {
+        padding: 0 20px;
+        margin: 3px;
+        height: 40px;
+        font-size: 1em;
+        font-weight: 900;
+        text-transform: uppercase;
+        border: 3px black solid;
+        border-radius: 5px;
+        background: orange;
+        cursor: pointer;
+      
+        
+      }
+
+      
+
+
+    
+
+
+
+   .product{
+     background-color:rgb(247, 247, 247);
+     color: rgb(60, 58, 58);
+     border:2px solid rgb(10, 9, 10);
+   } 
+
+   .level{
+     background-color: antiquewhite;
+     padding: 2px;
+     margin: 1px;
+   }
+
+  .main{
+     padding: 30px;
+    margin: 40px;
+
+   
+   }
+  
+
+ #nav-bar{
+  padding: 10px;
+   display: flex;
+flex-direction:flex-end ; 
+}
+
+
+#header-img{
+  height: 40px;
+}
+
+@media (max-width: 576px) { 
+  body{
+  background-color:rgb(66, 65, 65);
+  color: white;
+  }
+  #header{
+ background-color: white;
+  }
+ }
+ 
+#icon-1{
+  height: 100px;
+  left: 90px;
+  display: flex;
+  flex-direction: flex-end;
+}
+.logo{
+font-size: 20px;
+}
